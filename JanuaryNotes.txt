@@ -1,2 +1,2 @@
-When you commit, the updates exist on the local devoce on your docket
+When you commit, the updates exist on the local devoce on your .git
 
