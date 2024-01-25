@@ -1,5 +1,5 @@
 When you commit, the updates exist on the local devoie in your .git file
-commit - save to your local repository
+commit - save to your local repository, in your .git file
 push - save to shared repository (server)
 pull/fetch - check for updates
 
