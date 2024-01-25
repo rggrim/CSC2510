@@ -8,4 +8,3 @@ four ways to resolve conflicts when pushing to origin
  - resolve with theirs
  - resolve with both                    # how does this work???
  - resolve with none (get rid of both)
-
