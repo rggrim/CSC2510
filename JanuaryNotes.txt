@@ -8,3 +8,6 @@ four ways to resolve conflicts when pushing to origin
  - resolve with theirs
  - resolve with both                    # how does this work???
  - resolve with none (get rid of both)
+
+When working with different branches, you can create a merge commit
+back into the main branch. This saves the merge to your local repo.
