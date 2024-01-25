@@ -1,2 +1,11 @@
-When you commit, the updates exist on the local devoce on your .git
+When you commit, the updates exist on the local devoie in your .git file
+commit - save to your local repository
+push - save to shared repository (server)
+pull/fetch - check for updates
+
+four ways to resolve conflicts when pushing to origin
+ - accept your own (resolve with mine)
+ - resolve with theirs
+ - resolve with both                    # how does this work???
+ - resolve with none (get rid of both)
 
