@@ -3,6 +3,7 @@ commit - save to your local repository, in your .git file
 push - save to shared repository (server)
 pull/fetch - check for updates
 squash - shove all the commits together, and you can no longer access the commit history or revert commits
+remote repository - any repository that is not your local repo, including repos on other collaborator's devices and the shared gitHub repo
 
 four ways to resolve conflicts when pushing to origin
  - accept your own (resolve with mine)
