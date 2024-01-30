@@ -13,3 +13,13 @@ four ways to resolve conflicts when pushing to origin
 
 When working with different branches, you can create a merge commit
 back into the main branch. This saves the merge to your local repo.
+
+
+BASH COMMANDS
+pwd - Print Working Directory
+ls -  shows every file in the directory except for hidden files
+ls -a     - shows every file, INCLUDING hidden files
+ls -ltr   - shows your permissions, w for write, d is for denied, x for execute, r is for read
+            also shows the name of the owner, file size, modification date and time,
+            and file name
+clear - clears your screen
