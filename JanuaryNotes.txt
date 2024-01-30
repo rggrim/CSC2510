@@ -2,6 +2,7 @@ When you commit, the updates exist on the local devoie in your .git file
 commit - save to your local repository, in your .git file
 push - save to shared repository (server)
 pull/fetch - check for updates
+squash - shove all the commits together, and you can no longer access the commit history or revert commits
 
 four ways to resolve conflicts when pushing to origin
  - accept your own (resolve with mine)
