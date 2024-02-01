@@ -23,7 +23,7 @@ ls -ltr         - shows your permissions, w for write, d is for denied, x for ex
                  also shows the name of the owner, file size, modification date and time,
                  and file name
 clear           - clears your screen
-cd              - current director
+cd              - change directory
 cd ..           - moves you up into the parent folder of wherever you currently are in the directory
 nano            - opens text editor
 cat myFile.txt  - prints whats in the text file
