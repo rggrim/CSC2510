@@ -16,19 +16,24 @@ back into the main branch. This saves the merge to your local repo.
 
 
 BASH COMMANDS
-pwd             - Print Working Directory, shows you where you currently are
-ls              -  shows every file in the directory except for hidden files
-ls -a           - shows every file, INCLUDING hidden files
-ls -ltr         - shows your permissions, w for write, d is for denied, x for execute, r is for read
-                 also shows the name of the owner, file size, modification date and time,
-                 and file name
-clear           - clears your screen
-cd              - change directory
-cd ..           - moves you up into the parent folder of wherever you currently are in the directory
-nano            - opens text editor
-cat myFile.txt  - prints whats in the text file
+pwd                 - Print Working Directory, shows you where you currently are
+ls                  -  shows every file in the directory except for hidden files
+ls -a               - shows every file, INCLUDING hidden files
+ls -ltr             - shows your permissions, w for write, d is for denied, x for execute, r is for read
+                     also shows the name of the owner, file size, modification date and time,
+                     and file name
+clear               - clears your screen
+cd                  - change directory
+cd ..               - moves you up into the parent folder of wherever you currently are in the directory
+nano                - opens text editor
+cat myFile.txt      - prints whats in the text file
 head / tail myFile.txt - prints the first few or last lines of the text file
-rm myFile.txt   - deletes the file
-rm -r dirName   - deletes directory/folder
-mkdir           - makes a directory
-touch           - to create a new file
+rm myFile.txt       - deletes the file
+rm -r dirName       - deletes directory/folder
+mkdir               - makes a directory
+touch               - to create a new file
+&&                  - allows us to execute multiple actions in one line
+
+git init -b main    - creates a .git/ folder in your directory and names it main
+git status          - fetches to check if you're up to date
+git branch -m newName - renames currently checked out branch to newName
