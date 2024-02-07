@@ -26,6 +26,7 @@ clear               - clears your screen
 cd                  - change directory
 cd ..               - moves you up into the parent folder of wherever you currently are in the directory
 nano                - opens text editor
+nano fileName.fileType - opens text editor with filename
 cat myFile.txt      - prints whats in the text file
 head / tail myFile.txt - prints the first few or last lines of the text file
 rm myFile.txt       - deletes the file
@@ -37,3 +38,19 @@ touch               - to create a new file
 git init -b main    - creates a .git/ folder in your directory and names it main
 git status          - fetches to check if you're up to date
 git branch -m newName - renames currently checked out branch to newName
+git add config.json - stage config.json
+git add *           - stages all files with uncommitted changes 
+git add *.txt       - stages all .txt files with uncommited changes
+git commit -m ""    - commits all staged files with a message of your choice between the parentheses
+git log             - view all commits and displays hashes for the commits!
+tail --help         - prints out details about command options for "tail"
+
+
+JSON FILE STRUCTURE:
+#json files are made up of key value pairs!
+
+[
+        {"firstname":"Riley","lastname":"Grimaud"},
+        {"firstname":"Daniel","lastname":"Selvidge"}
+]
+
