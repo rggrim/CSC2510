@@ -1,0 +1,56 @@
+1. 
+	cd Users/
+	mkdir contractor01
+	cd contractor01/
+	mkdir ContractWork
+	cd ContractWork/
+	mkdir documentation
+	cd documentation/
+	git init
+
+2.
+	nano contractorInfo.txt
+
+3. 
+	git status
+	git add contractorInfo.txt
+	git commit -m "init commit for contractorInfo.txt"
+	git status
+
+4.
+	ls -ltr | tail -n 3
+
+5. 
+	git add feature1.txt
+	git commit -m "init commit for feature1.txt"
+	git status
+
+	git add feature2a.txt feature2b.txt
+	git commit -m "init commit for feature2a.txt, feature2b.txt"
+	git status
+
+6.	
+	git branch -m contractorwork
+	git checkout contractorwork
+
+7.
+	git branch -m contractor01work
+
+8. 
+	git commit feature1.txt -m "init commit for feature1.txt"
+	git status
+	git commit -m "init commits for feature2a.txt, feature2b.txt"
+	git status
+
+9.
+	mkdir shareddocumentation
+	cd shareddocumentation/
+	git clone git@github.com:awesomeorganization/shareddocumentation.git
+
+10.
+	cd documentation/
+	git push origin main
+	git push origin contractorwork
+	cd ..
+	cd shareddocumentation/
+	git push origin main
