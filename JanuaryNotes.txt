@@ -20,8 +20,9 @@ pwd                 - Print Working Directory, shows you where you currently are
 ls                  -  shows every file in the directory except for hidden files
 ls -a               - shows every file, INCLUDING hidden files
 ls -ltr             - shows your permissions, w for write, d is for denied, x for execute, r is for read
-                     also shows the name of the owner, file size, modification date and time,
-                     and file name
+                     also shows the name of the owner, file size, modification date and time, and file name
+ls -ltr | tail -n 3 - shows permissions for the tailing 3 files in the creation order
+p *                 - returns everything that starts with a p?
 clear               - clears your screen
 cd                  - change directory
 cd ..               - moves you up into the parent folder of wherever you currently are in the directory
@@ -34,6 +35,8 @@ rm -r dirName       - deletes directory/folder
 mkdir               - makes a directory
 touch               - to create a new file
 &&                  - allows us to execute multiple actions in one line
+whoami              - returns current working User
+
 
 git init -b main    - creates a .git/ folder in your directory and names it main
 git status          - fetches to check if you're up to date
@@ -43,6 +46,8 @@ git add *           - stages all files with uncommitted changes
 git add *.txt       - stages all .txt files with uncommited changes
 git commit -m ""    - commits all staged files with a message of your choice between the parentheses
 git log             - view all commits and displays hashes for the commits!
+git clone sshLink   - will clone the repo at the end of the link, putting it into a folder with the name        
+                      of the cloned repo
 tail --help         - prints out details about command options for "tail"
 
 
