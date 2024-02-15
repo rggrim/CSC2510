@@ -20,7 +20,7 @@ pwd                 - Print Working Directory, shows you where you currently are
 ls                  -  shows every file in the directory except for hidden files
 ls -a               - shows every file, INCLUDING hidden files
 ls -ltr             - shows your permissions, w for write, d is for denied, x for execute, r is for read
-                     also shows the name of the owner, file size, modification date and time, and file name
+                      also shows the name of the owner, file size, modification date and time, and file name
 ls -ltr | tail -n 3 - shows permissions for the tailing 3 files in the creation order
 p *                 - returns everything that starts with a p?
 clear               - clears your screen
