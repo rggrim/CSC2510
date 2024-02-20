@@ -31,11 +31,18 @@ nano fileName.fileType - opens text editor with filename
 cat myFile.txt      - prints whats in the text file
 head / tail myFile.txt - prints the first few or last lines of the text file
 rm myFile.txt       - deletes the file
-rm -r dirName       - deletes directory/folder
+rm -r dirName       - deletes directory/folder/file
+rm something*       - removes everything with a title containing "Something" followed by anything in pwd
 mkdir               - makes a directory
+mv dirName newName  - renames folder or file to newName
+mv dirname Directory/newName - moves dirName into Dorectory, replacing dirName with the name newName
 touch               - to create a new file
 &&                  - allows us to execute multiple actions in one line
 whoami              - returns current working User
+sudo whoami         - doesn't work for Windows
+tail --help         - prints out details about command options for "tail"
+cp fileName newFile - copies fileName into a new file
+
 
 
 git init -b main    - creates a .git/ folder in your directory and names it main
@@ -48,7 +55,6 @@ git commit -m ""    - commits all staged files with a message of your choice bet
 git log             - view all commits and displays hashes for the commits!
 git clone sshLink   - will clone the repo at the end of the link, putting it into a folder with the name        
                       of the cloned repo
-tail --help         - prints out details about command options for "tail"
 git checkout
 git push
 git branch 
