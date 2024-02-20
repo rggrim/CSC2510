@@ -49,6 +49,11 @@ git log             - view all commits and displays hashes for the commits!
 git clone sshLink   - will clone the repo at the end of the link, putting it into a folder with the name        
                       of the cloned repo
 tail --help         - prints out details about command options for "tail"
+git checkout
+git push
+git branch 
+git merge branchName
+git pull
 
 
 JSON FILE STRUCTURE:
