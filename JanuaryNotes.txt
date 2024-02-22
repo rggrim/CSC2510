@@ -44,7 +44,7 @@ tail --help         - prints out details about command options for "tail"
 cp fileName newFile - copies fileName into a new file
 
 
-
+GIT CLI
 git init -b main    - creates a .git/ folder in your directory and names it main
 git status          - fetches to check if you're up to date
 git branch -m newName - renames currently checked out branch to newName
@@ -61,6 +61,18 @@ git branch
 git merge branchName
 git pull
 
+UBUNTU CLI 
+sudo __my command__ - S.witch U.ser, then D.O., for when you don't have proper permissions for my_command
+sudo apt-get update - do before every install
+cat myFile.txt >> combined.txt  - creates newfile combined.txt and puts myFile.txt into it
+cat myFile2.txt >> combined.txt - puts both files into combined.txt
+
+cat myFile.txt > combined.txt
+cat myFile2.txt > combined.txt - overwrites combined.txt with myFile.txt
+
+grep -l "phrase" *   - searches all files in pwd for phrase and returns the names of those files
+ls | grep simpson    - looks at every file returned by ls and returns files containing simpson
+| (piping)           - takes results from left and uses them for command on the right
 
 JSON FILE STRUCTURE:
 #json files are made up of key value pairs!
