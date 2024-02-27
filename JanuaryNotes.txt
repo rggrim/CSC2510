@@ -71,8 +71,19 @@ cat myFile.txt > combined.txt
 cat myFile2.txt > combined.txt - overwrites combined.txt with myFile.txt
 
 grep -l "phrase" *   - searches all files in pwd for phrase and returns the names of those files
+grep -r myPhrase     - searches inside ???
 ls | grep simpson    - looks at every file returned by ls and returns files containing simpson
 | (piping)           - takes results from left and uses them for command on the right
+grep 'myPhrase' filename        - looks for lines with myPhrase in filename
+echo                            - what does echo do?
+top                             - displays running processes, constantly updating
+awk                             - query language for CLI 
+awk '{print $2,$4}' filename    - prints everything in columns 2 and 4 in filename
+awk '/phrase/ {print}' filename - looks for phrase in filename and prints line containing phrase
+sed 's/phrase/newphrase/' filename - prints new phrase instead of phrase in filename
+sed 's/phrase/newphrase/g' filename - universally prints new phrase in filename where phrase is present
+
+
 
 JSON FILE STRUCTURE:
 #json files are made up of key value pairs!
