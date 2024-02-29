@@ -19,7 +19,7 @@ BASH COMMANDS
 pwd                 - Print Working Directory, shows you where you currently are
 ls                  -  shows every file in the directory except for hidden files
 ls -a               - shows every file, INCLUDING hidden files
-ls -ltr             - shows your permissions, w for write, d is for denied, x for execute, r is for read
+ls -ltr             - shows your permissions, w for write, d is for denied?, x for execute, r is for read
                       also shows the name of the owner, file size, modification date and time, and file name
                       r:read - 4 
                       w:write - 2
@@ -27,7 +27,7 @@ ls -ltr             - shows your permissions, w for write, d is for denied, x fo
                       ___________   ___________   ____________   there are 3 positions for permision groups
                       OWNER         OWNER GROUP   WORLD
 ch mod _ _ _ filename - gives permisions to file or directory
-chown username filename - may need to use sudo but it will transfer ownership
+chown username filename - may need to use sudo but it will transfer ownership of filename to username
 ls -ltr | tail -n 3 - shows permissions for the tailing 3 files in the creation order
 p *                 - returns everything that starts with a p?
 clear               - clears your screen
@@ -76,7 +76,7 @@ cat myFile.txt >> combined.txt  - creates newfile combined.txt and puts myFile.t
 cat myFile2.txt >> combined.txt - puts both files into combined.txt
 
 cat myFile.txt > combined.txt
-cat myFile2.txt > combined.txt - overwrites combined.txt with myFile.txt
+cat myFile2.txt > combined.txt - overwrites combined.txt with myFile2.txt
 
 grep -l "phrase" *              - searches all files in pwd for phrase and returns the names of those files
 grep -r myPhrase                - searches inside ???
@@ -90,7 +90,7 @@ awk '{print $2,$4}' filename    - prints everything in columns 2 and 4 in filena
 awk '/phrase/ {print}' filename - looks for phrase in filename and prints line containing phrase
 sed 's/phrase/newphrase/' filename - prints new phrase instead of phrase in filename
 sed 's/phrase/newphrase/g' filename - universally prints new phrase in filename where phrase is present
-curl https://.....              - prints website contents
+curl https://.....              - prints website page contents
 
 
 
