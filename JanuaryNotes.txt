@@ -21,6 +21,13 @@ ls                  -  shows every file in the directory except for hidden files
 ls -a               - shows every file, INCLUDING hidden files
 ls -ltr             - shows your permissions, w for write, d is for denied, x for execute, r is for read
                       also shows the name of the owner, file size, modification date and time, and file name
+                      r:read - 4 
+                      w:write - 2
+                      x:execute - 1
+                      ___________   ___________   ____________   there are 3 positions for permision groups
+                      OWNER         OWNER GROUP   WORLD
+ch mod _ _ _ filename - gives permisions to file or directory
+chown username filename - may need to use sudo but it will transfer ownership
 ls -ltr | tail -n 3 - shows permissions for the tailing 3 files in the creation order
 p *                 - returns everything that starts with a p?
 clear               - clears your screen
@@ -62,18 +69,19 @@ git merge branchName
 git pull
 
 UBUNTU CLI 
-sudo __my command__ - S.witch U.ser, then D.O., for when you don't have proper permissions for my_command
-sudo apt-get update - do before every install
+sudo __my command__             - S.witch U.ser, then D.O., for when you don't have proper permissions for my_command
+sudo apt-get update             - do before every install to make sure your system is up to date
+sudo apt-get install package name - to install new package 
 cat myFile.txt >> combined.txt  - creates newfile combined.txt and puts myFile.txt into it
 cat myFile2.txt >> combined.txt - puts both files into combined.txt
 
 cat myFile.txt > combined.txt
 cat myFile2.txt > combined.txt - overwrites combined.txt with myFile.txt
 
-grep -l "phrase" *   - searches all files in pwd for phrase and returns the names of those files
-grep -r myPhrase     - searches inside ???
-ls | grep simpson    - looks at every file returned by ls and returns files containing simpson
-| (piping)           - takes results from left and uses them for command on the right
+grep -l "phrase" *              - searches all files in pwd for phrase and returns the names of those files
+grep -r myPhrase                - searches inside ???
+ls | grep simpson               - looks at every file returned by ls and returns files containing simpson
+| (piping)                      - takes results from left and uses them for command on the right
 grep 'myPhrase' filename        - looks for lines with myPhrase in filename
 echo                            - what does echo do?
 top                             - displays running processes, constantly updating
@@ -82,6 +90,7 @@ awk '{print $2,$4}' filename    - prints everything in columns 2 and 4 in filena
 awk '/phrase/ {print}' filename - looks for phrase in filename and prints line containing phrase
 sed 's/phrase/newphrase/' filename - prints new phrase instead of phrase in filename
 sed 's/phrase/newphrase/g' filename - universally prints new phrase in filename where phrase is present
+curl https://.....              - prints website contents
 
 
 
