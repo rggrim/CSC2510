@@ -26,7 +26,7 @@ ls -ltr             - shows your permissions, w for write, d is for denied?, x f
                       x:execute - 1
                       ___________   ______________    ____________   there are 3 positions for permision groups
                       **OWNER**     **OWNER GROUP**   **WORLD**
-ch mod _ _ _ filename - gives permisions to file or directory
+chmod _ _ _ filename - gives permisions to file or directory
 chown username filename - may need to use sudo but it will transfer ownership of filename to username
 ls -ltr | tail -n 3 - shows permissions for the tailing 3 files in the creation order
 p *                 - returns everything that starts with a p?
@@ -64,7 +64,7 @@ git clone sshLink   - will clone the repo at the end of the link, putting it int
                       of the cloned repo
 git checkout
 git push
-git branch 
+git checkout -b newBranchName
 git merge branchName
 git pull
 
