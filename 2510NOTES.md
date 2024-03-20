@@ -14,6 +14,14 @@ four ways to resolve conflicts when pushing to origin
 When working with different branches, you can create a merge commit
 back into the main branch. This saves the merge to your local repo.
 
+**SHELLSCRIPT .sh** starts with a shebang! #! /bin/bash
+./filename              - runs filename
+echo "phrase"           - prints phrase when file is run
+
+
+ELASTICITY -- the ability to expand or decrease resources as needed. Key feature of the cloud, only pay for the
+              performance level you need at that time.
+
 
 **BASH COMMANDS**
 pwd                 - Print Working Directory, shows you where you currently are
@@ -49,6 +57,7 @@ whoami              - returns current working User
 sudo whoami         - doesn't work for Windows
 tail --help         - prints out details about command options for "tail"
 cp fileName newFile - copies fileName into a new file
+history             - shows every command run so far
 
 
 **GIT CLI**
