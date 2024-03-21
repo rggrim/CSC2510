@@ -15,9 +15,16 @@ When working with different branches, you can create a merge commit
 back into the main branch. This saves the merge to your local repo.
 
 **SHELLSCRIPT .sh** starts with a shebang! #! /bin/bash
-./filename              - runs filename
-echo "phrase"           - prints phrase when file is run
-
+./filename                      - runs filename
+echo 'phrase'                   - prints phrase when file is run
+fname="My"                      - creates variable My
+lname=Name                      - creats variable name
+echo $fname $lname              - prints "My Name" to screen
+int1=1
+int2=2
+echo $int1+$int2                - prints "1+2"
+read -p "prompt phrase" strName - prompts user for input using prompt phrase and dumps input in variable strName
+read strName                    - takes user input and dumps into strName
 
 ELASTICITY -- the ability to expand or decrease resources as needed. Key feature of the cloud, only pay for the
               performance level you need at that time.
@@ -76,6 +83,7 @@ git push
 git checkout -b newBranchName
 git merge branchName
 git pull
+git --version        - returns currently installed version of git
 
 **UBUNTU CLI**
 sudo __my command__             - S.witch U.ser, then D.O., for when you don't have proper permissions for my_command
