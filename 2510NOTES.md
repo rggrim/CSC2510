@@ -32,8 +32,9 @@ read strName                    - takes user input and dumps into strName
 **fi**              
 if [ __ = __ ]; then            - good for string comparison
 if [ __ -eq, -gt, -le, -ge __ ] - good for integer comparison
--line of code- >> myFile.txt    - sends line of cofe into myFile.txt
--line of code- > myfile.txt     - 
+-line of code- >> myFile.txt    - sends line of cofe into myFile.txt, good for LOGGING
+-line of code- > myfile.txt     - sends line of code into new file myFile.txt
+date >> myFile.txt              - sends current date and time to log or .txt
 
 
 
