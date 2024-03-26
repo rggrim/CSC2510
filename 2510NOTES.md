@@ -16,6 +16,8 @@ back into the main branch. This saves the merge to your local repo.
 
 **SHELLSCRIPT .sh** starts with a shebang! #! /bin/bash
 ./filename                      - runs filename
+bash filename                   - runs filename
+sh filename                     - runs filename
 echo 'phrase'                   - prints phrase when file is run
 fname="My"                      - creates variable My
 lname=Name                      - creats variable name
@@ -25,6 +27,15 @@ int2=2
 echo $int1+$int2                - prints "1+2"
 read -p "prompt phrase" strName - prompts user for input using prompt phrase and dumps input in variable strName
 read strName                    - takes user input and dumps into strName
+**if []; then**
+**else**                        -basic if syntax
+**fi**              
+if [ __ = __ ]; then            - good for string comparison
+if [ __ -eq, -gt, -le, -ge __ ] - good for integer comparison
+-line of code- >> myFile.txt    - sends line of cofe into myFile.txt
+-line of code- > myfile.txt     - 
+
+
 
 ELASTICITY -- the ability to expand or decrease resources as needed. Key feature of the cloud, only pay for the
               performance level you need at that time.
