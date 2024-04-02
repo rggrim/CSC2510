@@ -15,6 +15,7 @@ When working with different branches, you can create a merge commit
 back into the main branch. This saves the merge to your local repo.
 
 **SHELLSCRIPT .sh** starts with a shebang! #! /bin/bash
+#                               - comment in shellscript
 ./filename                      - runs filename
 bash filename                   - runs filename
 sh filename                     - runs filename
@@ -35,7 +36,9 @@ if [ __ -eq, -gt, -le, -ge __ ] - good for integer comparison
 -line of code- >> myFile.txt    - sends line of cofe into myFile.txt, good for LOGGING
 -line of code- > myfile.txt     - sends line of code into new file myFile.txt
 date >> myFile.txt              - sends current date and time to log or .txt
-
+cat myFile.json | **jq .[0]**   - pipes myfile in to jq and returns first item in dictionary (at index 0)
+cat my.json | jq .[0].**attributeName** - returns attributeName's value for the first item in the dictionary
+cat my.json | jq **-r** .[0]    - -r will remove quotes from the result printed to the screen
 
 
 ELASTICITY -- the ability to expand or decrease resources as needed. Key feature of the cloud, only pay for the
