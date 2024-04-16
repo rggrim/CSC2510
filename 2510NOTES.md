@@ -106,8 +106,7 @@ sudo apt-get update             - do before every install to make sure your syst
 sudo apt-get install package name - to install new package 
 cat myFile.txt >> combined.txt  - creates newfile combined.txt and puts myFile.txt into it
 cat myFile2.txt >> combined.txt - puts both files into combined.txt
-
-cat myFile.txt > combined.txt
+ycat myFile.txt > combined.txt
 cat myFile2.txt > combined.txt - overwrites combined.txt with myFile2.txt
 
 grep -l "phrase" *              - searches all files in pwd for phrase and returns the names of those files
